@@ -1,0 +1,30 @@
+{
+  "repository": "TencentARC/InstantMesh",
+  "supports": "single-image mesh generation research; Generate multi-view-informed concept meshes.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/TencentARC/InstantMesh/08822c52fdc399b93ea00e4fa9e596344ed52ccc/README.md",
+  "revision": "08822c52fdc399b93ea00e4fa9e596344ed52ccc",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "8d1a43457079e847ff9f1df0880eda4cace5ccb8bc540497684c251814004380",
+  "body_bytes": 6702,
+  "retrieved_at": "2026-11-21T21:16:48.984257+08:00",
+  "excerpts": [
+    {
+      "line": 16,
+      "text": "This repo is the official implementation of InstantMesh, a feed-forward framework for efficient 3D mesh generation from a single image based on the LRM/Instant3D architecture."
+    },
+    {
+      "line": 97,
+      "text": "**Note:** When using the `NeRF` model variants for image-to-3D generation, exporting a mesh with texture map by specifying `--export_texmap` may cost long time in the UV unwarping step since the default iso-surface extraction resolution is `256`. You can set a lower iso-surface extraction resolution in the config file."
+    },
+    {
+      "line": 101,
+      "text": "We provide our training code to facilitate future research. But we cannot provide the training dataset due to its size. Please refer to our [dataloader](src/data/objaverse.py) for more details."
+    },
+    {
+      "line": 112,
+      "text": "We also provide our Zero123++ fine-tuning code since it is frequently requested. The running command is:"
+    }
+  ]
+}

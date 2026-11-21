@@ -1,0 +1,62 @@
+{
+  "repository": "openscad/openscad",
+  "supports": "declarative solid modelling; Create deterministic constructive geometry from reviewed parameters.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/openscad/openscad/4c028197823c4ef8fe9fd4b6a226e77e3285cdf2/README.md",
+  "revision": "4c028197823c4ef8fe9fd4b6a226e77e3285cdf2",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "9fba344a0a5109e83e22746c2111e37e43fff2f15a1446a780ac6f20eda82709",
+  "body_bytes": 14623,
+  "retrieved_at": "2026-11-21T21:16:45.430074+08:00",
+  "excerpts": [
+    {
+      "line": 10,
+      "text": "OpenSCAD is a software for creating solid 3D CAD objects. It is free software and"
+    },
+    {
+      "line": 19,
+      "text": "OpenSCAD is not an interactive modeler. Instead it is more like a"
+    },
+    {
+      "line": 26,
+      "text": "OpenSCAD provides two main modeling techniques: First there is constructive"
+    },
+    {
+      "line": 27,
+      "text": "solid geometry (aka CSG) and second there is extrusion of 2D outlines. As the data"
+    },
+    {
+      "line": 29,
+      "text": "addition to 2D paths for extrusion it is also possible to read design parameters"
+    },
+    {
+      "line": 53,
+      "text": "left frame is where you'll write code to model 3D objects. The right"
+    },
+    {
+      "line": 54,
+      "text": "frame is where you'll see the 3D rendering of your model."
+    },
+    {
+      "line": 109,
+      "text": "Follow the instructions for the platform you're compiling on below."
+    },
+    {
+      "line": 181,
+      "text": "2. **Homebrew** (assumes [Homebrew](https://brew.sh/) is already installed)"
+    },
+    {
+      "line": 190,
+      "text": "manager. A convenience script is provided that can help with this"
+    },
+    {
+      "line": 227,
+      "text": "A [development Nix shell](scripts/nix) is included for local, incremental compilation."
+    },
+    {
+      "line": 231,
+      "text": "OpenSCAD for Windows is usually cross-compiled from Linux. If you wish to"
+    }
+  ]
+}

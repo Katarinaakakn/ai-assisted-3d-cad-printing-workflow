@@ -1,0 +1,26 @@
+{
+  "repository": "Ultimaker/Cura",
+  "supports": "slicer; Turn a reviewed model and machine/material profile into a toolpath preview and G-code.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/Ultimaker/Cura/1a221ec29a86960d16a412940becc1f63534c41f/README.md",
+  "revision": "1a221ec29a86960d16a412940becc1f63534c41f",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "3f9df5386712891d34784cfc42b4055af80b1b3d6045d0c91f6ab957e4177c2a",
+  "body_bytes": 5321,
+  "retrieved_at": "2026-11-21T21:17:09.697945+08:00",
+  "excerpts": [
+    {
+      "line": 35,
+      "text": "*Ultimaker Cura is sure to lead your next project to a success.*"
+    },
+    {
+      "line": 95,
+      "text": "[Badge License]: https://img.shields.io/badge/License-LGPL3-336887.svg?style=for-the-badge&labelColor=458cb5&logoColor=white&logo=GNU"
+    },
+    {
+      "line": 111,
+      "text": "[Button Plugins]: https://img.shields.io/badge/Plugin_Usage-569A31?style=for-the-badge&logoColor=white&logo=ROS"
+    }
+  ]
+}

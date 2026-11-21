@@ -1,0 +1,26 @@
+{
+  "repository": "VAST-AI-Research/TripoSG",
+  "supports": "image-to-3D research; Generate candidate geometry from visual references.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/VAST-AI-Research/TripoSG/fc5c40990181e2a756c4e0b1c2f4d6b5202faf8c/README.md",
+  "revision": "fc5c40990181e2a756c4e0b1c2f4d6b5202faf8c",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "87024a832f6dc1e81ba3078485b282095fb31941898f81b1c6bfe02d5454288d",
+  "body_bytes": 5719,
+  "retrieved_at": "2026-11-21T21:16:48.763088+08:00",
+  "excerpts": [
+    {
+      "line": 17,
+      "text": "TripoSG is an advanced high-fidelity, high-quality and high-generalizability image-to-3D generation foundation model. It leverages large-scale rectified flow transformers, hybrid supervised training, and a high-quality dataset to achieve state-of-the-art performance in 3D shape generation."
+    },
+    {
+      "line": 30,
+      "text": "- **High-Quality Dataset**: Trained on 2 million meticulously curated Image-SDF pairs, ensuring superior output quality"
+    },
+    {
+      "line": 116,
+      "text": "- [\ud83e\udd17 Diffusers](https://github.com/huggingface/diffusers) for their excellent diffusion model framework"
+    }
+  ]
+}

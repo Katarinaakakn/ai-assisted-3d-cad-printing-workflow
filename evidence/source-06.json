@@ -1,0 +1,34 @@
+{
+  "repository": "3DTopia/LGM",
+  "supports": "image-to-3D research; Generate a 3D representation from image inputs for concept exploration.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/3DTopia/LGM/fe8d12cff8c827df7bb77a3c8e8b37408cb6fe4c/readme.md",
+  "revision": "fe8d12cff8c827df7bb77a3c8e8b37408cb6fe4c",
+  "document": "readme.md",
+  "status": 200,
+  "body_sha256": "40f949bfc23a40b0ddfd8750608d197156ff494013e9164203871a1b2777f4e6",
+  "body_bytes": 4653,
+  "retrieved_at": "2026-11-21T21:16:44.977512+08:00",
+  "excerpts": [
+    {
+      "line": 4,
+      "text": "This is the official implementation of *LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation*."
+    },
+    {
+      "line": 22,
+      "text": "# xformers is required! please refer to https://github.com/facebookresearch/xformers for details."
+    },
+    {
+      "line": 77,
+      "text": "Since the dataset used in our training is based on AWS, it cannot be directly used for training in a new environment."
+    },
+    {
+      "line": 78,
+      "text": "We provide the necessary training code framework, please check and modify the [dataset](./core/provider_objaverse.py) implementation!"
+    },
+    {
+      "line": 92,
+      "text": "This work is built on many amazing research works and open-source projects, thanks a lot to all the authors for sharing!"
+    }
+  ]
+}

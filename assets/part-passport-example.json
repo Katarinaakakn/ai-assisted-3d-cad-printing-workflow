@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "example_kind": "ILLUSTRATIVE_NOT_PRINTED",
+  "part_id": "desk-cable-spacer-v1",
+  "units": "mm",
+  "coordinate_frame": "right-handed Z-up",
+  "purpose": "non-load-bearing desktop cable spacer",
+  "selected_route": [
+    "CadQuery",
+    "FreeCAD",
+    "Cura"
+  ],
+  "rejected_route": {
+    "TripoSR": "Single-view inferred mesh cannot specify the exact cable clearance."
+  },
+  "parameters": {
+    "width": 24,
+    "length": 18,
+    "height": 6,
+    "cable_slot_width": 8.5
+  },
+  "features": [
+    {
+      "id": "cable_slot",
+      "target_mm": 8.5,
+      "tolerance_mm": 0.3,
+      "instrument": "caliper",
+      "method": "three positions across slot after cooling",
+      "observations_mm": [],
+      "result": "NOT_MEASURED"
+    }
+  ],
+  "handoffs": [
+    {
+      "from": "reviewed CadQuery parameters",
+      "to": "native CAD plus STEP",
+      "checks": [
+        "named dimensions",
+        "solid count",
+        "bounding box"
+      ],
+      "result": "NOT_RUN"
+    },
+    {
+      "from": "STEP",
+      "to": "FreeCAD inspection and mesh export",
+      "checks": [
+        "unit conversion",
+        "slot clearance",
+        "tessellation change"
+      ],
+      "result": "NOT_RUN"
+    },
+    {
+      "from": "reviewed mesh",
+      "to": "Cura slicer project",
+      "checks": [
+        "machine profile",
+        "material profile",
+        "orientation",
+        "support contact"
+      ],
+      "result": "NOT_RUN"
+    }
+  ],
+  "coupon": {
+    "printed": false,
+    "material_lot": null,
+    "profile_hash": null,
+    "measurement_state": "NOT_RUN"
+  },
+  "release": "HOLD_NOT_MEASURED"
+}

@@ -1,0 +1,62 @@
+{
+  "repository": "CadQuery/cadquery",
+  "supports": "scripted parametric CAD; Express repeatable solids and dimensions in Python.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/CadQuery/cadquery/e87cba2232bd974fa569008dca7e5d71f0dc977c/README.md",
+  "revision": "e87cba2232bd974fa569008dca7e5d71f0dc977c",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "6b9440311a628fcbf5d52aea5c9e84097df6954e28e3f27d0c7c5c7db6a592f4",
+  "body_bytes": 12217,
+  "retrieved_at": "2026-11-21T21:16:45.409011+08:00",
+  "excerpts": [
+    {
+      "line": 19,
+      "text": "CadQuery is an intuitive, easy-to-use Python module for building parametric 3D CAD models. Using CadQuery, you can write short, simple scripts that produce high quality CAD models. It is easy to make many different objects using a single script that can be customized."
+    },
+    {
+      "line": 52,
+      "text": "Note that conda-based installation (or the CQ-editor installer) is the better supported option."
+    },
+    {
+      "line": 60,
+      "text": "``mamba install`` is recommended over ``conda install`` for faster and less memory intensive CadQuery installation."
+    },
+    {
+      "line": 78,
+      "text": "CadQuery has a complex set of dependencies including OCP, which is our set of bindings to the OpenCASCADE CAD kernel. OCP is distributed as binary wheels for Linux, MacOS and Windows. However, there are some limitations. Only Python 3.9 through 3.12 are currently supported, and some older Linux distributions such as Ubuntu 18.04 are not supported. If the pip installation method does not work for your system, you can try the conda installation method."
+    },
+    {
+      "line": 80,
+      "text": "It is highly recommended that a virtual environment is used when installing CadQuery, although it is not strictly required. Installing CadQuery via pip requires a up-to-date version of pip, which can be obtained with the following command line (or a slight variation thereof)."
+    },
+    {
+      "line": 84,
+      "text": "Once a current version of pip is installed, CadQuery can be installed using the following command line."
+    },
+    {
+      "line": 89,
+      "text": "It is also possible to install the very latest changes directly from CadQuery's GitHub repository, with the understanding that sometimes breaking changes can occur. To install from the git repository, run the following command line."
+    },
+    {
+      "line": 120,
+      "text": "CQ-editor is an IDE that allows users to edit CadQuery model scripts in a GUI environment. It includes features such as:"
+    },
+    {
+      "line": 135,
+      "text": "CadQuery supports Jupyter out-of-the-box.  Run your CadQuery code in the notebook and visualize the model by calling ```display(<CadQuery object>)```."
+    },
+    {
+      "line": 146,
+      "text": "[GitHub Discussions](https://github.com/CadQuery/cadquery/discussions) is a good place to ask general questions that are not tied to a bug report or feature request."
+    },
+    {
+      "line": 159,
+      "text": "CadQuery is licensed under the terms of the [Apache Public License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)."
+    },
+    {
+      "line": 177,
+      "text": "It is asked that all contributions to this project be made in a respectful and considerate way. Please use the [Python Community Code of Conduct's](https://www.python.org/psf/codeofconduct/) guidelines as a reference."
+    }
+  ]
+}

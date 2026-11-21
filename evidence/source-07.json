@@ -1,0 +1,30 @@
+{
+  "repository": "Tencent/Tencent-XR-3DGen",
+  "supports": "Tencent XR 3DGen / PandoraX research suite for shape, texture and character generation; not the Hunyuan product family.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/Tencent/Tencent-XR-3DGen/6334912cdb79b050d46eac805cbef2737a520225/README.md",
+  "revision": "6334912cdb79b050d46eac805cbef2737a520225",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "1f04afa449a3daca38c304f011305dd0af2c7b29404f0fd09c88bf07a9deb0e6",
+  "body_bytes": 4338,
+  "retrieved_at": "2026-11-21T21:16:46.909318+08:00",
+  "excerpts": [
+    {
+      "line": 1,
+      "text": "# <div align = \"center\">\u200cTencent XR 3DGen Suite: Integrated Framework for High-Quality 3D Shape Generation, Texture Synthesis, and Character Customization</div>"
+    },
+    {
+      "line": 34,
+      "text": "This is an all-in-one code release for 3D generation pipeline developed by Tencent XR Vision Labs. It contains following submodules, including training and inference codes:"
+    },
+    {
+      "line": 80,
+      "text": "title={Pandora3D: A Comprehensive Framework for High-Quality 3D Shape and Texture Generation},"
+    },
+    {
+      "line": 92,
+      "text": "Tencent XR 3DGen is licensed under the MIT License but with additional restrictions in accordance with company policies. These include prohibitions on using the software for harmful or discriminatory purposes, or within the European Union. Please refer to the LICENSE file for full details on the terms and conditions."
+    }
+  ]
+}

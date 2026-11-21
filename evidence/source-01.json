@@ -1,0 +1,42 @@
+{
+  "repository": "FreeCAD/FreeCAD",
+  "supports": "parametric CAD; Reconstruct dimensions, constraints, assemblies, and editable design intent.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/33a22d8bb12b2cfe39a9fee4b230d51667125562/README.md",
+  "revision": "33a22d8bb12b2cfe39a9fee4b230d51667125562",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "1df90ba2d5c3be2bca997e84c2f57f9855810664b1bcaf64c518f02b9b03d5e3",
+  "body_bytes": 5364,
+  "retrieved_at": "2026-11-21T21:16:40.716603+08:00",
+  "excerpts": [
+    {
+      "line": 20,
+      "text": "* **Freedom to build what you want**  FreeCAD is an open-source parametric 3D"
+    },
+    {
+      "line": 25,
+      "text": "2D shapes and use them as a base to build other objects. It also provides tools"
+    },
+    {
+      "line": 28,
+      "text": "* **Designed for your needs** FreeCAD is designed to fit a wide range of uses"
+    },
+    {
+      "line": 32,
+      "text": "* **Cross platform** FreeCAD runs on Windows, macOS and Linux operating systems."
+    },
+    {
+      "line": 47,
+      "text": "On most Linux distributions, FreeCAD is also directly installable from the"
+    },
+    {
+      "line": 70,
+      "text": "- Restart FreeCAD in safe mode `Help > Restart in safe mode` and try to reproduce the issue again. If the issue is resolved it can be fixed by deleting the FreeCAD config files."
+    },
+    {
+      "line": 109,
+      "text": "The [FreeCAD forum](https://forum.freecad.org) is a great place"
+    }
+  ]
+}

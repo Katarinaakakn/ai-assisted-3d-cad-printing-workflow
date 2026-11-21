@@ -1,0 +1,50 @@
+schema_version: "1.0"
+project_id: "<fill>"
+publication_authorized: false
+source_intent:
+  units: "<fill>"
+  coordinate_frame: "<fill>"
+  interfaces_and_tolerances: []
+  load_cases: []
+  forbidden_geometry: []
+  material_and_process: "<fill>"
+  rights_record: "<fill>"
+provenance:
+  prompts_sha256: "<fill>"
+  model_and_checkpoint: "<fill>"
+  seed_and_config_sha256: "<fill>"
+  generated_artifact_sha256: "<fill>"
+gates:
+  - id: geometry_inspection
+    checks: [units, manifoldness, normals, self_intersections, minimum_features]
+    state: NOT_RUN
+  - id: parametric_reconstruction
+    checks: [datums, constraints, named_dimensions, interfaces, revision_export]
+    state: NOT_RUN
+  - id: slicer_preview
+    checks: [printer_profile, material_profile, orientation, supports, clearances, machine_target]
+    state: NOT_RUN
+  - id: coupon_print
+    checks: [machine_id, filament_lot, environment, measured_dimensions, defects]
+    state: NOT_RUN
+release:
+  engineering_owner: "<fill>"
+  approved_revision_sha256: "<fill>"
+  state: LOCAL_REVIEW_ONLY
+feature_measurements:
+  - feature_id: null
+    target_mm: null
+    tolerance_mm: null
+    instrument: null
+    method: null
+    observations_mm: []
+    evidence_sha256: null
+    disposition: NOT_MEASURED
+handoff_records:
+  - from_representation: null
+    to_representation: null
+    input_sha256: null
+    output_sha256: null
+    expected_units: null
+    checks: []
+    result: NOT_RUN

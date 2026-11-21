@@ -1,0 +1,42 @@
+{
+  "repository": "IfcOpenShell/IfcOpenShell",
+  "supports": "open BIM/CAD semantics; Inspect and transform IFC geometry and properties when building semantics matter.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/IfcOpenShell/IfcOpenShell/90c840c68fb35a54e1a61505c6417ab854f826a5/README.md",
+  "revision": "90c840c68fb35a54e1a61505c6417ab854f826a5",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "561d658024adc8d2063fa147da1a208918fbdb3970d59a99f8395242bdea2cfc",
+  "body_bytes": 11241,
+  "retrieved_at": "2026-11-21T21:16:50.335200+08:00",
+  "excerpts": [
+    {
+      "line": 10,
+      "text": "IfcOpenShell is an open source ([LGPL]) software library for working with Industry Foundation Classes ([IFC]). Complete"
+    },
+    {
+      "line": 11,
+      "text": "parsing support is provided for [IFC2x3 TC1], [IFC4 Add2 TC1], IFC4x1, IFC4x2, and [IFC4x3 Add2]. Extensive geometric support"
+    },
+    {
+      "line": 12,
+      "text": "is implemented for the IFC releases [IFC2x3 TC1] and [IFC4 Add2 TC1]. Extending with support for arbitrary IFC schemas"
+    },
+    {
+      "line": 16,
+      "text": "to convert IFC models to other formats), Bonsai (an add-on to Blender providing a graphical IFC authoring platform),"
+    },
+    {
+      "line": 17,
+      "text": "and many other libraries, CLI apps, and more. Support is also provided for auxiliary standards such as BCF and IDS."
+    },
+    {
+      "line": 31,
+      "text": "Development is sponsored through your generous donations!"
+    },
+    {
+      "line": 62,
+      "text": "The IfcOpenShell C++ codebase is split into multiple interal libraries:"
+    }
+  ]
+}

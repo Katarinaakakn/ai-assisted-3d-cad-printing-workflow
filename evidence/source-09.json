@@ -1,0 +1,34 @@
+{
+  "repository": "VAST-AI-Research/TripoSR",
+  "supports": "single-image 3D reconstruction research; Create rapid concept meshes from one image.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/VAST-AI-Research/TripoSR/107cefdc244c39106fa830359024f6a2f1c78871/README.md",
+  "revision": "107cefdc244c39106fa830359024f6a2f1c78871",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "ed40f078c5e451c58eae716187e0128f0ce8575e467aab2440b4ed9c75e490b9",
+  "body_bytes": 5419,
+  "retrieved_at": "2026-11-21T21:16:47.493585+08:00",
+  "excerpts": [
+    {
+      "line": 9,
+      "text": "This is the official codebase for **TripoSR**, a state-of-the-art open-source model for **fast** feedforward 3D reconstruction from a single image, collaboratively developed by [Tripo AI](https://www.tripo3d.ai/) and [Stability AI](https://stability.ai/)."
+    },
+    {
+      "line": 11,
+      "text": "Leveraging the principles of the [Large Reconstruction Model (LRM)](https://yiconghong.me/LRM/), TripoSR brings to the table key advancements that significantly boost both the speed and quality of 3D reconstruction. Our model is distinguished by its ability to rapidly process inputs, generating high-quality 3D models in less than 0.5 seconds on an NVIDIA A100 GPU. TripoSR has exhibited superior performance in both qualitative and quantitative evaluations, outperforming other open-source alternatives across multiple public datasets. The figures below illustrate visual comparisons and metrics showcasing TripoSR's performance relative to other leading models. Details about the model architecture, training process, and comparisons can be found in this [technical report](https://arxiv.org/abs/2403.02151)."
+    },
+    {
+      "line": 27,
+      "text": "The model is released under the MIT license, which includes the source code, pretrained models, and an interactive online demo. Our goal is to empower researchers, developers, and creatives to push the boundaries of what's possible in 3D generative AI and 3D content creation."
+    },
+    {
+      "line": 33,
+      "text": "- Install PyTorch according to your platform: [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) **[Please make sure that the locally-installed CUDA major version matches the PyTorch-shipped CUDA major version. For example if you have CUDA 11.x installed, make sure to install PyTorch compiled with CUDA 11.x.]**"
+    },
+    {
+      "line": 59,
+      "text": "This is because `torchmcubes` is compiled without CUDA support. Please make sure that"
+    }
+  ]
+}

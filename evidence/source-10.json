@@ -1,0 +1,18 @@
+{
+  "repository": "openai/shap-e",
+  "supports": "conditional 3D generation research; Explore generated implicit/mesh assets from prompts or images.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/openai/shap-e/50131012ee11c9d2617f3886c10f000d3c7a3b43/README.md",
+  "revision": "50131012ee11c9d2617f3886c10f000d3c7a3b43",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "4214fcf750f60c381f070d52ca3d0041225c3fe60932980985d25b45216cad55",
+  "body_bytes": 3252,
+  "retrieved_at": "2026-11-21T21:16:48.177991+08:00",
+  "excerpts": [
+    {
+      "line": 3,
+      "text": "This is the official code and model release for [Shap-E: Generating Conditional 3D Implicit Functions](https://arxiv.org/abs/2305.02463)."
+    }
+  ]
+}

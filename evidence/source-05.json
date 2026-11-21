@@ -1,0 +1,22 @@
+{
+  "repository": "Adam-CAD/CADAM",
+  "supports": "language-model CAD research; Study an AI-assisted CAD generation approach and its declared evaluation surface.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/Adam-CAD/CADAM/e339e3ad85601bb1e23a5ff9c7f33b51ddf602f5/README.md",
+  "revision": "e339e3ad85601bb1e23a5ff9c7f33b51ddf602f5",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "d21d1f58358d9acec4cbe45f76329d9ad314f81b2c9d8d286eed09a53ff65d1f",
+  "body_bytes": 15324,
+  "retrieved_at": "2026-11-21T21:16:46.239492+08:00",
+  "excerpts": [
+    {
+      "line": 240,
+      "text": "5. Ensure `ENVIRONMENT=\"local\"` is set in the same file."
+    },
+    {
+      "line": 285,
+      "text": "This distribution is licensed under the GNU General Public License v3.0 (GPLv3). See `LICENSE`."
+    }
+  ]
+}
